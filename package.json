@@ -1,6 +1,6 @@
 {
   "name": "todolist",
-  "homepage": "https://akhilnalliboina.github.io/cart_counter",
+  "homepage": "https://github.com/akhilnalliboina/cart_counter.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
   },
   "scripts": {
       "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+      "deploy": "gh-pages -d master build",
         "start": "react-scripts start",
         "build": "react-scripts build"},
   "eslintConfig": {
